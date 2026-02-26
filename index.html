@@ -3,91 +3,227 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pets and The City | Kansas City's Premier Pet Sitting & Dog Walking</title>
+  <title>Pets and The City | Kansas City's Premier Pet Sitting & Dog Walking Services</title>
 
   <!-- SEO Meta -->
-  <meta name="description" content="Pets and The City offers professional dog walking, drop-in visits, and overnight pet sitting in Kansas City, MO. Trusted, loving care for your pets. Book with Samantha Jones today." />
-  <meta name="keywords" content="pet sitting Kansas City, dog walking Kansas City, overnight pet care KC, drop-in pet visits Kansas City MO, cat sitter Kansas City" />
+  <meta name="description" content="Trusted pet sitting & dog walking in Kansas City, MO. Professional overnight stays, drop-in visits & daily walks. 5-star rated Samantha Jones. Book today!" />
+  <meta name="keywords" content="pet sitting Kansas City, dog walking Kansas City MO, overnight pet care KC, drop-in pet visits, cat sitter Kansas City, Westport pet sitting, Plaza pet walking, Brookside dog walker, pet care Missouri" />
   <meta name="author" content="Samantha Jones, Pets and The City" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://petsandthecitykc.com/" />
+  <meta name="geo.region" content="US-MO" />
+  <meta name="geo.placename" content="Kansas City" />
+  <meta name="geo.position" content="39.0997;-94.5786" />
+  <meta name="ICBM" content="39.0997, -94.5786" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Pets and The City | Kansas City Pet Sitting & Dog Walking" />
-  <meta property="og:description" content="Professional, loving pet care in Kansas City, MO. Dog walks, drop-in visits, and overnight stays. Contact Samantha Jones at 701-509-3856." />
+  <meta property="og:description" content="5-star rated pet care in Kansas City, MO. Dog walks, drop-in visits, and overnight stays by experienced pet sitter Samantha Jones. Call 701-509-3856." />
   <meta property="og:url" content="https://petsandthecitykc.com/" />
+  <meta property="og:image" content="https://petsandthecitykc.com/images/pets-and-the-city-og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Pets and The City" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pets and The City | Kansas City Pet Sitting & Dog Walking" />
+  <meta name="twitter:description" content="5-star rated pet care in Kansas City, MO. Professional dog walks, drop-in visits, and overnight stays." />
+  <meta name="twitter:image" content="https://petsandthecitykc.com/images/pets-and-the-city-twitter.jpg" />
 
   <!-- Schema.org Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Pets and The City",
-    "description": "Professional pet sitting and dog walking services in Kansas City, MO. Services include dog walks, drop-in visits, and overnight stays.",
-    "url": "https://petsandthecitykc.com",
-    "telephone": "+17015093856",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Kansas City",
-      "addressRegion": "MO",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 39.0997,
-      "longitude": -94.5786
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Kansas City"
-    },
-    "priceRange": "$$",
-    "openingHours": "Mo-Su 07:00-21:00",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+17015093856",
-      "contactType": "customer service",
-      "name": "Samantha Jones"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Pet Care Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Dog Walking",
-            "description": "Professional dog walking services in Kansas City, MO"
-          }
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://petsandthecitykc.com/#business",
+        "name": "Pets and The City",
+        "description": "Professional pet sitting and dog walking services in Kansas City, MO. Specializing in dog walks, drop-in visits, and overnight pet care with personalized attention.",
+        "url": "https://petsandthecitykc.com",
+        "telephone": "+17015093856",
+        "email": "hello@petsandthecitykc.com",
+        "priceRange": "$$",
+        "paymentAccepted": "Cash, Venmo, Zelle",
+        "currenciesAccepted": "USD",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Kansas City",
+          "addressRegion": "MO",
+          "addressCountry": "US"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Drop-In Visits",
-            "description": "Drop-in pet sitting visits for cats and dogs in Kansas City"
-          }
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 39.0997,
+          "longitude": -94.5786
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Overnight Pet Sitting",
-            "description": "Overnight stays for pets in Kansas City, MO"
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Kansas City",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Missouri"
+            }
           }
+        ],
+        "serviceArea": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 39.0997,
+            "longitude": -94.5786
+          },
+          "geoRadius": "25000"
+        },
+        "openingHours": ["Mo-Su 07:00-21:00"],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+17015093856",
+          "contactType": "customer service",
+          "name": "Samantha Jones",
+          "availableLanguage": "English",
+          "areaServed": "Kansas City, MO"
+        },
+        "founder": {
+          "@type": "Person",
+          "@id": "https://petsandthecitykc.com/#person",
+          "name": "Samantha Jones",
+          "jobTitle": "Pet Sitter & Dog Walker",
+          "description": "Experienced pet care professional serving Kansas City, MO with personalized pet sitting and dog walking services."
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "25",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pet Care Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "@id": "https://petsandthecitykc.com/#dogwalking",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Dog Walking",
+                "description": "Professional dog walking services in Kansas City neighborhoods including Westport, Plaza, Brookside, and surrounding areas.",
+                "provider": {
+                  "@id": "https://petsandthecitykc.com/#business"
+                },
+                "areaServed": "Kansas City, MO",
+                "category": "Pet Care"
+              }
+            },
+            {
+              "@type": "Offer",
+              "@id": "https://petsandthecitykc.com/#dropins",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Drop-In Pet Visits",
+                "description": "Drop-in pet sitting visits for cats and dogs in Kansas City, MO. Perfect for busy schedules and pets who prefer staying home.",
+                "provider": {
+                  "@id": "https://petsandthecitykc.com/#business"
+                },
+                "areaServed": "Kansas City, MO",
+                "category": "Pet Care"
+              }
+            },
+            {
+              "@type": "Offer",
+              "@id": "https://petsandthecitykc.com/#overnight",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Overnight Pet Sitting",
+                "description": "Overnight pet sitting stays in Kansas City homes. Your pets stay comfortable in their own environment while you travel.",
+                "provider": {
+                  "@id": "https://petsandthecitykc.com/#business"
+                },
+                "areaServed": "Kansas City, MO",
+                "category": "Pet Care"
+              }
+            }
+          ]
+        },
+        "sameAs": [
+          "https://instagram.com/petsandthecity_kc",
+          "https://www.rover.com/promos/samanj56142/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://petsandthecitykc.com/#website",
+        "url": "https://petsandthecitykc.com",
+        "name": "Pets and The City",
+        "description": "Professional pet sitting and dog walking services in Kansas City, MO",
+        "publisher": {
+          "@id": "https://petsandthecitykc.com/#business"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://petsandthecitykc.com/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
         }
-      ]
-    },
-    "sameAs": ["https://instagram.com/petsandthecity_kc"]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://petsandthecitykc.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I book pet sitting services with Pets and The City?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Getting started is easy! Just call or text Samantha at 701-509-3856. We'll schedule a free meet and greet so your pet can get comfortable before the first official visit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What areas of Kansas City do you serve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We cover a wide range of Kansas City, MO neighborhoods including Westport, Plaza, Brookside, and surrounding areas. Reach out to confirm availability in your specific area."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What pets do you care for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We primarily care for dogs and cats, but we're happy to discuss other small animals too. Just give us a call and we'll figure it out together."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does an overnight pet sitting stay include?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Overnight stays mean Samantha sleeps at your home. Your pet stays in their own environment, follows their normal routine, and gets full care including feeding, walks, and playtime plus photo updates for you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get updates while I'm away?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely! Photo updates and check-in messages are included with all our services so you can relax knowing your pet is happy and well cared for."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 
   <style>
     :root {
@@ -111,7 +247,7 @@
       background-color: var(--cream);
       color: var(--charcoal);
       overflow-x: hidden;
-      scroll-padding-top: 100px; /* Account for fixed nav height */
+      scroll-padding-top: 100px;
     }
 
     /* ─── NAV ─── */
@@ -372,19 +508,6 @@
       line-height: 1.3;
     }
 
-    .hero-dots {
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      pointer-events: none;
-    }
-
-    .dot {
-      position: absolute;
-      background: var(--teal-light);
-      border-radius: 50%;
-      animation: floatDot 8s ease-in-out infinite;
-    }
-
     /* ─── MARQUEE ─── */
     .marquee-strip {
       background: var(--teal);
@@ -638,8 +761,9 @@
 
     .testimonials-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
+      margin-bottom: 2rem;
     }
 
     .testimonial-card {
@@ -667,11 +791,10 @@
       font-size: 0.95rem;
       line-height: 1.7;
       color: var(--charcoal);
-      font-style: italic;
+      margin-bottom: 1.5rem;
     }
 
     .testimonial-author {
-      margin-top: 1.5rem;
       display: flex;
       align-items: center;
       gap: 0.75rem;
@@ -694,7 +817,7 @@
       color: var(--charcoal);
     }
 
-    .author-pet {
+    .author-service {
       font-size: 0.75rem;
       color: var(--warm-gray);
     }
@@ -704,6 +827,47 @@
       font-size: 0.8rem;
       letter-spacing: 0.1em;
       margin-bottom: 1rem;
+    }
+
+    .rover-cta {
+      background: var(--teal-light);
+      border: 1px solid var(--teal);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .rover-cta-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      color: var(--teal-dark);
+      margin-bottom: 0.5rem;
+    }
+
+    .rover-cta-text {
+      font-size: 0.9rem;
+      color: var(--warm-gray);
+      margin-bottom: 1rem;
+    }
+
+    .rover-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--teal);
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border-radius: 100px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.25s;
+    }
+
+    .rover-btn:hover {
+      background: var(--teal-dark);
+      transform: translateY(-2px);
     }
 
     /* ─── ABOUT ─── */
@@ -941,10 +1105,21 @@
     footer {
       background: var(--charcoal);
       color: rgba(255,255,255,0.55);
-      padding: 3rem 5rem;
+      padding: 3rem 5rem 4rem;
+    }
+
+    .footer-main {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
+      margin-bottom: 3rem;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .footer-brand {
+      flex: 1;
     }
 
     .footer-logo {
@@ -952,27 +1127,122 @@
       font-size: 1.2rem;
       font-weight: 600;
       color: #fff;
+      margin-bottom: 1rem;
     }
 
     .footer-logo span { color: var(--pink); }
 
-    .footer-links {
-      display: flex;
-      gap: 2rem;
-      list-style: none;
+    .footer-desc {
+      font-size: 0.85rem;
+      line-height: 1.6;
+      max-width: 300px;
+      margin-bottom: 1.5rem;
     }
 
-    .footer-links a {
+    .footer-nap {
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
+
+    .footer-nap strong {
+      color: #fff;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .footer-contact-email {
+      color: inherit !important;
+      text-decoration: none;
+    }
+
+    .footer-contact-email:hover {
+      color: var(--pink) !important;
+    }
+
+    .footer-links-section {
+      display: flex;
+      gap: 3rem;
+    }
+
+    .footer-column h4 {
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      letter-spacing: 0.05em;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .footer-column a {
       font-size: 0.8rem;
       color: rgba(255,255,255,0.5);
       text-decoration: none;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.02em;
       transition: color 0.2s;
     }
 
-    .footer-links a:hover { color: var(--pink); }
+    .footer-column a:hover { color: var(--pink); }
 
-    .footer-copy { font-size: 0.75rem; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .footer-copy { color: rgba(255,255,255,0.4); }
+
+    .footer-credit {
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-credit:hover {
+      color: var(--pink);
+    }
+
+    /* ─── SCROLL TO TOP ─── */
+    .scroll-to-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 50px;
+      height: 50px;
+      background: var(--pink);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+      z-index: 1000;
+      box-shadow: 0 4px 16px rgba(232,62,122,0.3);
+    }
+
+    .scroll-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .scroll-to-top:hover {
+      background: var(--teal);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(232,62,122,0.4);
+    }
 
     /* ─── ANIMATIONS ─── */
     @keyframes fadeUp {
@@ -993,11 +1263,6 @@
     @keyframes floatPaw {
       0%, 100% { transform: translateY(0) rotate(0deg); }
       50% { transform: translateY(-12px) rotate(8deg); }
-    }
-
-    @keyframes floatDot {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-8px); }
     }
 
     /* Scroll reveal */
@@ -1033,8 +1298,14 @@
       .about-inner { grid-template-columns: 1fr; gap: 3rem; }
       .faq { padding: 5rem 2rem; background-color: var(--cream); }
       .cta { padding: 5rem 2rem; }
-      footer { flex-direction: column; gap: 1.5rem; text-align: center; padding: 3rem 2rem; }
-      .footer-links { flex-wrap: wrap; justify-content: center; }
+      footer { padding: 3rem 2rem; }
+      .footer-main { flex-direction: column; gap: 2rem; text-align: center; }
+      .footer-links-section { gap: 2rem; }
+      .footer-bottom { flex-direction: column; gap: 1rem; text-align: center; }
+    }
+
+    @media (max-width: 768px) {
+      .footer-links-section { flex-direction: column; gap: 2rem; }
     }
   </style>
 </head>
@@ -1054,6 +1325,7 @@
 </nav>
 
 <!-- HERO -->
+<main>
 <section class="hero" id="home" aria-label="Hero section">
   <div class="hero-left">
     <p class="hero-eyebrow">Kansas City's Trusted Pet Care</p>
@@ -1101,6 +1373,7 @@
     </div>
   </div>
 </section>
+</main>
 
 <!-- MARQUEE -->
 <div class="marquee-strip" aria-hidden="true">
@@ -1126,27 +1399,27 @@
   <div class="services-grid">
     <article class="service-card" itemscope itemtype="https://schema.org/Service">
       <div class="service-icon">🦮</div>
-      <h3 class="service-title" itemprop="name">Dog Walks</h3>
+      <h3 class="service-title" itemprop="name">Dog Walking Services in Kansas City</h3>
       <p class="service-desc" itemprop="description">
-        Daily walks tailored to your dog's energy and needs. We explore Kansas City neighborhoods together, keeping tails wagging and paws moving. Solo or small group options available.
+        Daily walks tailored to your dog's energy and needs across Kansas City neighborhoods including Westport, Plaza, and Brookside. We explore local parks and streets together, keeping tails wagging and paws moving. Solo or small group options available.
       </p>
       <span class="service-tag">30 & 60 min options</span>
     </article>
 
     <article class="service-card featured" itemscope itemtype="https://schema.org/Service">
       <div class="service-icon">🏠</div>
-      <h3 class="service-title" itemprop="name">Drop-In Visits</h3>
+      <h3 class="service-title" itemprop="name">Drop-In Pet Visits Kansas City</h3>
       <p class="service-desc" itemprop="description">
-        Can't be home? We'll pop by to feed, play, refresh water, scoop litter, and shower your pet with love. Perfect for cats, dogs, and small animals who thrive in their own space.
+        Can't be home? We'll pop by to feed, play, refresh water, scoop litter, and shower your pet with love. Perfect for cats, dogs, and small animals who thrive in their own Kansas City home environment.
       </p>
       <span class="service-tag">Most Popular</span>
     </article>
 
     <article class="service-card" itemscope itemtype="https://schema.org/Service">
       <div class="service-icon">🌙</div>
-      <h3 class="service-title" itemprop="name">Overnight Stays</h3>
+      <h3 class="service-title" itemprop="name">Overnight Pet Sitting Kansas City</h3>
       <p class="service-desc" itemprop="description">
-        Travel with peace of mind. We stay in your home overnight so your pet sleeps in their own bed, follows their routine, and never feels alone. Your home, our care.
+        Travel with peace of mind. We stay in your Kansas City home overnight so your pet sleeps in their own bed, follows their routine, and never feels alone. Your home, our care.
       </p>
       <span class="service-tag">Travel Ready</span>
     </article>
@@ -1160,7 +1433,7 @@
       <p class="section-label" style="color: rgba(255,255,255,0.5);">Why Choose Us</p>
       <h2 id="why-heading" class="why-title">Not just a pet sitter.<br><em>A pet person.</em></h2>
       <p class="why-body">
-        In a city full of options, Pets and The City is different. Samantha Jones brings genuine love for animals and a commitment to communication that gives you confidence every time you leave your pet in our care. No app algorithms — just real, personal attention.
+        In Kansas City, there are many pet care options, but Pets and The City is different. Samantha Jones brings genuine love for animals and a commitment to communication that gives you confidence every time you leave your pet in our care. No app algorithms — just real, personal attention in neighborhoods like Westport, Plaza, and Brookside.
       </p>
     </div>
 
@@ -1169,28 +1442,28 @@
         <div class="why-feature-icon">💌</div>
         <div class="why-feature-text">
           <strong>Updates & Photo Check-ins</strong>
-          <p>We keep you in the loop with photos and messages so you never have to wonder how your fur baby is doing.</p>
+          <p>We keep you in the loop with photos and messages so you never have to wonder how your fur baby is doing while you're away.</p>
         </div>
       </div>
       <div class="why-feature">
         <div class="why-feature-icon">🗺️</div>
         <div class="why-feature-text">
           <strong>Locally Rooted in Kansas City</strong>
-          <p>We know the neighborhoods, the parks, and the best spots to let your pup stretch their legs across KC.</p>
+          <p>We know the neighborhoods, the parks like Loose Park and Mill Creek, and the best spots to let your pup stretch their legs across KC.</p>
         </div>
       </div>
       <div class="why-feature">
         <div class="why-feature-icon">🤝</div>
         <div class="why-feature-text">
           <strong>Meet & Greet Before Every Booking</strong>
-          <p>We always meet your pet before the first visit so introductions are warm, comfortable, and stress-free.</p>
+          <p>We always meet your pet before the first visit so introductions are warm, comfortable, and stress-free for everyone.</p>
         </div>
       </div>
       <div class="why-feature">
         <div class="why-feature-icon">🐾</div>
         <div class="why-feature-text">
           <strong>Routine-Respecting Care</strong>
-          <p>We follow your pet's schedule — feeding times, walks, and nap spots — to keep them happy and at ease.</p>
+          <p>We follow your pet's schedule — feeding times, walks, and nap spots — to keep them happy and at ease in their Kansas City home.</p>
         </div>
       </div>
     </div>
@@ -1213,42 +1486,57 @@
   <div class="testimonials-grid">
     <article class="testimonial-card" itemscope itemtype="https://schema.org/Review">
       <div class="stars">★★★★★</div>
-      <div class="testimonial-quote">"</div>
-      <p class="testimonial-text" itemprop="reviewBody">Samantha is an absolute gem. Our anxious rescue dog took to her immediately during the meet and greet. We came home to a happy, relaxed pup and the cutest update photos.</p>
+      <p class="testimonial-text" itemprop="reviewBody">First time using Rover, Samantha was extremely helpful and communicative. Both my cat and I are very happy with the service, will definitely book again.</p>
       <div class="testimonial-author">
-        <div class="author-avatar">🐶</div>
+        <div class="author-avatar">🐱</div>
         <div>
-          <div class="author-name">Jamie L.</div>
-          <div class="author-pet">Dog parent — Westport, KC</div>
+          <div class="author-name" itemprop="author">Michael H.</div>
+          <div class="author-service">Drop-In Visits • Feb 20</div>
         </div>
       </div>
     </article>
 
     <article class="testimonial-card highlight" itemscope itemtype="https://schema.org/Review">
       <div class="stars">★★★★★</div>
-      <div class="testimonial-quote">"</div>
-      <p class="testimonial-text" itemprop="reviewBody">Finally found a pet sitter I actually trust. I travel for work every month and knowing Samantha is with my cats overnight makes it so much easier. Highly recommend the overnight stay.</p>
+      <p class="testimonial-text" itemprop="reviewBody">Samantha went above and beyond checking in on our cat. She was timely, gave us great updates, and our cat loved her. A wonderful, worry-free experience!</p>
       <div class="testimonial-author">
-        <div class="author-avatar">🐱</div>
+        <div class="author-avatar">🐾</div>
         <div>
-          <div class="author-name">Marcus T.</div>
-          <div class="author-pet">Cat parent — Brookside, KC</div>
+          <div class="author-name" itemprop="author">Anna W.</div>
+          <div class="author-service">Drop-In Visits • Feb 7</div>
         </div>
       </div>
     </article>
 
     <article class="testimonial-card" itemscope itemtype="https://schema.org/Review">
       <div class="stars">★★★★★</div>
-      <div class="testimonial-quote">"</div>
-      <p class="testimonial-text" itemprop="reviewBody">The drop-in visits are a lifesaver on my long work days. She's always on time, sends the best pics, and my dog literally waits by the door for her now. 10/10.</p>
+      <p class="testimonial-text" itemprop="reviewBody">Samantha has been responsive, consistent and helpful. She has made the arrangement as easy as possible, I can't recommend her enough. Our dogs love her!</p>
       <div class="testimonial-author">
-        <div class="author-avatar">🦴</div>
+        <div class="author-avatar">🐕</div>
         <div>
-          <div class="author-name">Priya M.</div>
-          <div class="author-pet">Dog parent — Plaza District, KC</div>
+          <div class="author-name" itemprop="author">Rebecca B.</div>
+          <div class="author-service">Dog Walking • Feb 5</div>
         </div>
       </div>
     </article>
+
+    <article class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text" itemprop="reviewBody">We love that you find time to walk Phoebe I for walks. Thank you 😊</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">🦴</div>
+        <div>
+          <div class="author-name" itemprop="author">Stacey B.</div>
+          <div class="author-service">Dog Walking • Feb 4</div>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div class="rover-cta">
+    <h3 class="rover-cta-title">See All Reviews on Rover</h3>
+    <p class="rover-cta-text">Check out more 5-star reviews from Kansas City pet parents who trust Samantha with their beloved pets.</p>
+    <a href="https://www.rover.com/promos/samanj56142/" target="_blank" rel="noopener" class="rover-btn">View Rover Profile →</a>
   </div>
 </section>
 
@@ -1271,10 +1559,10 @@
       <p class="section-label">Our Story</p>
       <h2 id="about-heading" class="section-title">A business born from <em>real</em> love for animals.</h2>
       <p class="about-text">
-        Hi, I'm Samantha! I'm an animal lover, Kansas City local, and the proud founder of Pets and The City. I started this business because I saw how stressful it was for pet parents to find care they truly trusted.
+        Hi, I'm Samantha! I'm an animal lover, Kansas City local, and the proud founder of Pets and The City. I started this business because I saw how stressful it was for pet parents to find care they truly trusted in the Kansas City area.
       </p>
       <p class="about-text">
-        Every pet I care for gets treated like my own. I believe in personalized care, consistent communication, and making sure your pet's day is just as good when you're not around.
+        Every pet I care for gets treated like my own. I believe in personalized care, consistent communication, and making sure your pet's day is just as good when you're not around. Whether you're in Westport, the Plaza, Brookside, or anywhere in KC, your pet deserves the best care possible.
       </p>
       <div class="about-values">
         <span class="about-value">🐕 Dog Lover</span>
@@ -1297,7 +1585,7 @@
   <div itemscope itemtype="https://schema.org/FAQPage">
     <div class="faq-item" itemscope itemtype="https://schema.org/Question">
       <div class="faq-question" itemprop="name">
-        How do I get started booking with Pets and The City?
+        How do I book pet sitting services with Pets and The City?
         <span class="faq-icon">+</span>
       </div>
       <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -1307,11 +1595,11 @@
 
     <div class="faq-item" itemscope itemtype="https://schema.org/Question">
       <div class="faq-question" itemprop="name">
-        Do you service all Kansas City neighborhoods?
+        What areas of Kansas City do you serve?
         <span class="faq-icon">+</span>
       </div>
       <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <div itemprop="text">We cover a wide range of Kansas City, MO neighborhoods. Reach out to confirm availability in your area — we're always looking to expand our service zones!</div>
+        <div itemprop="text">We cover a wide range of Kansas City, MO neighborhoods including Westport, Plaza, Brookside, and surrounding areas. Reach out to confirm availability in your specific area.</div>
       </div>
     </div>
 
@@ -1327,11 +1615,11 @@
 
     <div class="faq-item" itemscope itemtype="https://schema.org/Question">
       <div class="faq-question" itemprop="name">
-        What does an overnight stay include?
+        What does an overnight pet sitting stay include?
         <span class="faq-icon">+</span>
       </div>
       <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <div itemprop="text">Overnight stays mean Samantha sleeps at your home. Your pet stays in their own environment, follows their normal routine, and gets full care including feeding, walks, and playtime — plus photo updates for you.</div>
+        <div itemprop="text">Overnight stays mean Samantha sleeps at your home. Your pet stays in their own environment, follows their normal routine, and gets full care including feeding, walks, and playtime plus photo updates for you.</div>
       </div>
     </div>
 
@@ -1341,7 +1629,27 @@
         <span class="faq-icon">+</span>
       </div>
       <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <div itemprop="text">Absolutely — it's one of our favorite parts! Expect photo updates, check-in messages, and quick reports so you can relax knowing your pet is happy and well cared for.</div>
+        <div itemprop="text">Absolutely! Photo updates and check-in messages are included with all our services so you can relax knowing your pet is happy and well cared for.</div>
+      </div>
+    </div>
+
+    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+      <div class="faq-question" itemprop="name">
+        What makes Pets and The City different from other pet sitters in Kansas City?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div itemprop="text">We offer personalized, one-on-one care with consistent communication. Samantha knows Kansas City neighborhoods and provides photo updates with every visit. We always do a meet and greet first, and we focus on maintaining your pet's routine.</div>
+      </div>
+    </div>
+
+    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+      <div class="faq-question" itemprop="name">
+        How much does pet sitting cost in Kansas City?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div itemprop="text">Pricing varies based on the service and duration. Call Samantha at 701-509-3856 for a personalized quote based on your specific needs and location in Kansas City.</div>
       </div>
     </div>
   </div>
@@ -1360,19 +1668,85 @@
 
 <!-- FOOTER -->
 <footer role="contentinfo">
-  <div class="footer-logo">Pets<span>&</span>TheCity</div>
-  <ul class="footer-links">
-    <li><a href="#services">Services</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#testimonials">Reviews</a></li>
-    <li><a href="#faq">FAQ</a></li>
-    <li><a href="https://instagram.com/petsandthecity_kc" target="_blank" rel="noopener">Instagram</a></li>
-    <li><a href="tel:7015093856">Contact</a></li>
-  </ul>
-  <p class="footer-copy">© 2025 Pets and The City · Kansas City, MO · Built with 🐾</p>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <div class="footer-logo">Pets<span>&</span>TheCity</div>
+      <p class="footer-desc">Professional pet sitting and dog walking services serving Kansas City, MO with personalized care and consistent communication.</p>
+      <div class="footer-nap">
+        <strong>Pets and The City</strong>
+        Kansas City, MO<br>
+        <a href="tel:7015093856" class="footer-contact-email">701-509-3856</a><br>
+        <a href="mailto:hello@petsandthecitykc.com" class="footer-contact-email">hello@petsandthecitykc.com</a>
+      </div>
+    </div>
+    
+    <div class="footer-links-section">
+      <div class="footer-column">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Dog Walking Kansas City</a></li>
+          <li><a href="#services">Drop-In Pet Visits</a></li>
+          <li><a href="#services">Overnight Pet Sitting</a></li>
+          <li><a href="#faq">Pricing Information</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Areas</h4>
+        <ul>
+          <li><a href="#about">Westport Pet Care</a></li>
+          <li><a href="#about">Plaza Pet Sitting</a></li>
+          <li><a href="#about">Brookside Dog Walking</a></li>
+          <li><a href="#about">All Kansas City Areas</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#about">About Samantha</a></li>
+          <li><a href="https://instagram.com/petsandthecity_kc" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.rover.com/promos/samanj56142/" target="_blank" rel="noopener">Rover Profile</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2025 Pets and The City · Kansas City, MO · Professional Pet Care</p>
+    <a href="https://zbcreative.agency/" target="_blank" rel="noopener" class="footer-credit">Built with ❤️ by ZB Creative</a>
+  </div>
 </footer>
 
+<!-- SCROLL TO TOP BUTTON -->
+<button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">↑</button>
+
 <script>
+  // Email protection bypass for Cloudflare
+  document.addEventListener('DOMContentLoaded', function() {
+    // Find all email links with data-email attribute
+    const emailLinks = document.querySelectorAll('a[href*="email-protection"]');
+    emailLinks.forEach(link => {
+      // Replace with direct mailto link
+      const email = 'hello@petsandthecitykc.com';
+      link.href = 'mailto:' + email;
+      if (link.textContent.includes('email-protection')) {
+        link.textContent = email;
+      }
+    });
+
+    // Ensure footer contact email is always unprotected
+    const footerEmailLinks = document.querySelectorAll('.footer-contact-email');
+    footerEmailLinks.forEach(link => {
+      if (link.href.includes('tel:')) return; // Skip phone links
+      link.href = 'mailto:hello@petsandthecitykc.com';
+      if (link.textContent && !link.textContent.includes('@')) {
+        link.textContent = 'hello@petsandthecitykc.com';
+      }
+    });
+  });
+
   // Scroll reveal
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
@@ -1408,6 +1782,24 @@
           behavior: 'smooth'
         });
       }
+    });
+  });
+
+  // Scroll to top functionality
+  const scrollToTopBtn = document.getElementById('scrollToTop');
+  
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 300) {
+      scrollToTopBtn.classList.add('visible');
+    } else {
+      scrollToTopBtn.classList.remove('visible');
+    }
+  });
+
+  scrollToTopBtn.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
     });
   });
 </script>
