@@ -1,0 +1,63 @@
+{
+  "name": "Pets and The City",
+  "short_name": "Pets&TheCity",
+  "description": "Kansas City's premier pet sitting & dog walking service. Trusted, personal care from Samantha Jones.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#3d9b8f",
+  "lang": "en-US",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "categories": ["pets", "services", "local"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/pets-and-the-city-og.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "label": "Pets and The City – Kansas City Pet Care"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book Now",
+      "short_name": "Book",
+      "description": "Contact Samantha to schedule pet care",
+      "url": "/#contact",
+      "icons": [{ "src": "/favicon-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Our Services",
+      "short_name": "Services",
+      "description": "View dog walking, drop-in visits, and overnight care",
+      "url": "/#services",
+      "icons": [{ "src": "/favicon-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
